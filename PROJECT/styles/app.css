@@ -1,0 +1,81 @@
+.container-fluid{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#iImportant{
+    font-size: 30px;
+    color: rgb(255,208,0);
+    cursor: pointer;
+}
+
+#iImportant:hover{
+    color: rgb(255,187,0);
+}
+form{
+    background-color: rgb(200,200,200,.5);
+    border-radius: 10px;
+    width: 35vw;
+}
+form div{
+    padding: 1rem;
+}
+/*body*/
+body{
+    height: 100vh;
+    background-image: url('../img/12261194.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*header*/
+header{
+    background-color: #8ad4d6;
+    color: rgb(0, 56, 51);
+}
+.container-fluid-header{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.container-fluid h3{
+    color: white;
+}
+#btnAdd{
+    background-color: rgb(0, 56, 51);
+    border: none;
+}
+#btnClear{
+    background-color: rgb(102, 0, 0);
+    border: none;
+}
+/*task*/
+.task{
+    border: 3px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    color: white;
+    width: 30rem;
+}
+.taskInfo{
+    text-align: left;
+    
+}
+.task label{
+    display: block;
+    padding: 5px;
+}
+.task label i{
+    margin-right: 1rem;
+    padding: 0;
+    width: 2rem;
+    text-align: right;
+}
+.task .title{
+    display: flex;
+    justify-content: space-between;
+}
